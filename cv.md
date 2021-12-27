@@ -16,7 +16,7 @@
   * CSS
   
   ## Work experience:
-  ##### Nothing yet.
+   Nothing yet.
   
   ## Education:
   * Belarusian State University of Culture and Arts
