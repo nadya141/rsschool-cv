@@ -6,10 +6,10 @@
  * GitHub: nadya141
  * Discord: nadya_karpovich#3303
  
- ## About me
- ##### I am 31 years old, I am music teacher.
- At the present time my work is no longer interesting to me, so I want to gain new knowledge and develop further in the profession 
- of front-end development.
+ ## About me:
+ I am 31 years old, I am music teacher.
+ At the present time my work is no longer interesting to me, so I want to gain new knowledge and develop further 
+ in the profession of front-end development.
  
  ## Skills:
   * HTML
