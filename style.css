@@ -1,5 +1,139 @@
+* a {
+  text-decoration: none;
+}
+ * {
+  box-sizing: border-box;
+ }
+ul {
+  padding: 0;
+  margin-left: 20px;
+}
+body {
+  max-width: 1440px;
+  scroll-behavior: smooth; 
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h1 {
-  font-size: 24px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: blueviolet;
+  font-weight: 700;
+  padding-top: 10%;
+  text-shadow: -4px 4px 3px #999999;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav  {
+  margin: 0 auto;
+  font-size: 22px;
+  background-color: rgba(252, 255, 45, 0.979);
+  font-weight: bold;
+  border: solid rgba(252, 255, 45, 0.979) 2px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link:hover {
+  color: rgb(241, 33, 196);
+  text-decoration: underline;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition-property: color;
+  transition-duration: 0.5s, 0.5s, .5s;
+}
+
+
+.intro img {
+  width: 45%;
+  float: left;
+  padding-right: 22px;
+}
+
+.intro h2 {
+  padding-bottom: 4%;
+  text-shadow: -4px 4px 3px #999999;
+  font-size: 33px;
+}
+
+.intro {
+  font-size: 28px;
+  line-height: 55px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0;
+}
+main {
+  display: flex;
+  align-content: flex-start;
+  flex-flow: row wrap;
+  height: 250px;
+  justify-content: space-around;
+  padding: 3px;
+  width: 100%;
+  margin-bottom: 3%;
+  
+}
+
+.child-item {
+  background-color: yellow;
+  flex-basis: 75px;
+  flex-grow: 1;
+  height: 25px;
+  margin: 10px;
+  width: 75px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-weight: bold;
+  font-size: larger;
+  flex-direction: row;
+}
+
+.footer-github img {
+  width: 10%;
+}
+
+.footer-rsschool-icon {
+  width: 30%;
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.footer-year  p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.footer-year {
+  margin-left: -20%;
+}
+
+.footer-rsschool {
+  margin-right: -17%;
 }
